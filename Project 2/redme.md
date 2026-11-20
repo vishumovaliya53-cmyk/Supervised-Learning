@@ -2,28 +2,45 @@
 
 ### ✨ AI-Powered Real Estate Price Estimation
 
-\<p align="center">
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.12-7C3AED?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Machine-Learning-A855F7?style=for-the-badge" alt="Machine Learning">
+  <img src="https://img.shields.io/badge/Model-Random%20Forest-9333EA?style=for-the-badge" alt="Random Forest">
+  <img src="https://img.shields.io/badge/Framework-Streamlit-6D28D9?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit">
+</p>
 
-&#x20; \<img src="[https://img.shields.io/badge/Python-3.12-7C3AED?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/Python-3.12-7C3AED?style=for-the-badge\&logo=python\&logoColor=white)" />   \<img src="[https://img.shields.io/badge/Machine-Learning-A855F7?style=for-the-badge](https://img.shields.io/badge/Machine-Learning-A855F7?style=for-the-badge)" />   \<img src="[https://img.shields.io/badge/Model-Random%20Forest-9333EA?style=for-the-badge](https://img.shields.io/badge/Model-Random%20Forest-9333EA?style=for-the-badge)" />   \<img src="[https://img.shields.io/badge/Framework-Streamlit-6D28D9?style=for-the-badge&logo=streamlit&logoColor=white](https://img.shields.io/badge/Framework-Streamlit-6D28D9?style=for-the-badge\&logo=streamlit\&logoColor=white)" />
-
-\</p>
-
-\<p align="center">   \<b>A Machine Learning Regression Project for Predicting House Prices\</b>   \<br/>   Built with Python, Scikit-learn and Streamlit \</p>
+<p align="center">
+  <b>A Machine Learning Regression Project for Predicting House Prices</b><br>
+  Built with Python, Scikit-learn and Streamlit
+</p>
 
 ---
 
 ## 🚀 QUICK ACCESS
 
-\<p align="center">
+<p align="center">
+  <a href="https://drive.google.com/file/d/19heQaqqHNYIr37YDswLCjYgthIMx2-U3/view?usp=sharing">
+    <img src="https://img.shields.io/badge/🎥_WATCH-PROJECT_VIDEO-7C3AED?style=for-the-badge" alt="Watch Project Video">
+  </a>
+  <a href="http://localhost:8501">
+    <img src="https://img.shields.io/badge/OPEN-LOCAL_APP-A855F7?style=for-the-badge&logo=streamlit&logoColor=white" alt="Open Local App">
+  </a>
+  <a href="https://share.streamlit.io/">
+    <img src="https://img.shields.io/badge/DEPLOY-STREAMLIT_CLOUD-6D28D9?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit Cloud">
+  </a>
+</p>
 
+### 🎬 Project Demonstration Video
 
+<blockquote>
+  **Watch the complete House Price Prediction project video:**
 
-
-
-\</p>
+  [▶ CLICK HERE TO WATCH PROJECT VIDEO ON GOOGLE DRIVE](https://drive.google.com/file/d/19heQaqqHNYIr37YDswLCjYgthIMx2-U3/view?usp=sharing)
+</blockquote>
 
 > 💜 **LOCAL APP:** [http://localhost:8501](http://localhost:8501)
-> Run the Streamlit application first to open this link. It works on the computer where the app is running.
+
+> Note: The localhost link works only when the Streamlit application is running on your computer. It is not a public website.
 
 ---
 
@@ -50,19 +67,19 @@ The final selected model in this project is **Random Forest Regression**.
 
 ## 📊 PROJECT DASHBOARD
 
-| Project Information  | Details                |
-| :------------------- | :--------------------- |
-| Project Name         | House Price Prediction |
-| Domain               | Machine Learning       |
-| Learning Type        | Supervised Learning    |
-| Problem Type         | Regression             |
-| Dataset Records      | 3,800                  |
-| Input Features       | 11                     |
-| Training Records     | 3,040                  |
-| Testing Records      | 760                    |
-| Selected Model       | Random Forest          |
-| Deployment Framework | Streamlit              |
-| Programming Language | Python                 |
+| Project Information | Details |
+|:---|:---|
+| Project Name | House Price Prediction |
+| Domain | Machine Learning |
+| Learning Type | Supervised Learning |
+| Problem Type | Regression |
+| Dataset Records | 3,800 |
+| Input Features | 11 |
+| Training Records | 3,040 |
+| Testing Records | 760 |
+| Selected Model | Random Forest |
+| Deployment Framework | Streamlit |
+| Programming Language | Python |
 
 ---
 
@@ -83,11 +100,6 @@ flowchart TD
     K --> L["Save Trained Model"]
     L --> M["Streamlit Dashboard"]
     M --> N["House Price Prediction"]
-
-    style A fill:#211B40,stroke:#A855F7,color:#FFFFFF
-    style K fill:#6D28D9,stroke:#C4B5FD,color:#FFFFFF
-    style M fill:#6D28D9,stroke:#C4B5FD,color:#FFFFFF
-    style N fill:#211B40,stroke:#A855F7,color:#FFFFFF
 ```
 
 ---
@@ -98,20 +110,20 @@ The dataset contains property-related information used to predict house prices.
 
 ### Features Description
 
-| Feature            | Description                   |
-| :----------------- | :---------------------------- |
-| `property_id`      | Unique property identifier    |
-| `sale_date`        | Property sale date            |
-| `area_sqft`        | Property area in square feet  |
-| `bedrooms`         | Number of bedrooms            |
-| `bathrooms`        | Number of bathrooms           |
-| `location_score`   | Location quality score        |
-| `property_age`     | Age of the property           |
-| `distance_city_km` | Distance from city            |
-| `near_school`      | School availability indicator |
-| `near_metro`       | Metro availability indicator  |
-| `crime_rate_index` | Area crime rate index         |
-| `house_price_inr`  | Target variable               |
+| Feature | Description |
+|:---|:---|
+| `property_id` | Unique property identifier |
+| `sale_date` | Property sale date |
+| `area_sqft` | Property area in square feet |
+| `bedrooms` | Number of bedrooms |
+| `bathrooms` | Number of bathrooms |
+| `location_score` | Location quality score |
+| `property_age` | Age of the property |
+| `distance_city_km` | Distance from city |
+| `near_school` | School availability indicator |
+| `near_metro` | Metro availability indicator |
+| `crime_rate_index` | Area crime rate index |
+| `house_price_inr` | Target variable |
 
 **Target Variable:** `house_price_inr`
 
@@ -119,27 +131,27 @@ The dataset contains property-related information used to predict house prices.
 
 ## ⚙️ PROJECT TASKS (1–26)
 
-| Part   | Topics Covered                                                |
-| :----- | :------------------------------------------------------------ |
-| Part A | Data Understanding and Preparation                            |
-| Part B | Feature Selection and Train-Test Split                        |
-| Part C | Ridge, Lasso and Hyperparameter Tuning                        |
-| Part D | K-Fold, Stratified K-Fold, LOOCV and Time Series Split        |
-| Part E | Decision Tree and Random Forest                               |
-| Part F | Linear SVR, RBF SVR and SVR Tuning                            |
+| Part | Topics Covered |
+|:---|:---|
+| Part A | Data Understanding and Preparation |
+| Part B | Feature Selection and Train-Test Split |
+| Part C | Ridge, Lasso and Hyperparameter Tuning |
+| Part D | K-Fold, Stratified K-Fold, LOOCV and Time Series Split |
+| Part E | Decision Tree and Random Forest |
+| Part F | Linear SVR, RBF SVR and SVR Tuning |
 | Part G | Evaluation Metrics, Model Comparison and Overfitting Analysis |
-| Part H | Final Model, Report and Submission                            |
+| Part H | Final Model, Report and Submission |
 
 ### Algorithms Used
 
-| Algorithm        | Purpose                             |
-| :--------------- | :---------------------------------- |
-| Ridge Regression | L2 Regularization                   |
-| Lasso Regression | L1 Regularization                   |
-| Decision Tree    | Tree-Based Regression               |
-| Random Forest    | Ensemble Learning                   |
-| Linear SVR       | Linear Support Vector Regression    |
-| RBF SVR          | Nonlinear Support Vector Regression |
+| Algorithm | Purpose |
+|:---|:---|
+| Ridge Regression | L2 Regularization |
+| Lasso Regression | L1 Regularization |
+| Decision Tree | Tree-Based Regression |
+| Random Forest | Ensemble Learning |
+| Linear SVR | Linear Support Vector Regression |
+| RBF SVR | Nonlinear Support Vector Regression |
 
 ---
 
@@ -147,26 +159,24 @@ The dataset contains property-related information used to predict house prices.
 
 The project uses the following regression evaluation metrics:
 
-| Metric      | Meaning                 | Better Result |
-| :---------- | :---------------------- | :------------ |
-| MAE         | Mean Absolute Error     | Lower         |
-| MSE         | Mean Squared Error      | Lower         |
-| RMSE        | Root Mean Squared Error | Lower         |
-| R² Score    | Explained Variance      | Higher        |
-| Adjusted R² | Adjusted Model Fit      | Higher        |
+| Metric | Meaning | Better Result |
+|:---|:---|:---|
+| MAE | Mean Absolute Error | Lower |
+| MSE | Mean Squared Error | Lower |
+| RMSE | Root Mean Squared Error | Lower |
+| R² Score | Explained Variance | Higher |
+| Adjusted R² | Adjusted Model Fit | Higher |
 
 ### Model Comparison
 
-The models are compared using their training, validation and testing performance.
-
-| Model            |     MAE    |    RMSE    |  R² Score  |
-| :--------------- | :--------: | :--------: | :--------: |
-| Ridge Regression | Add result | Add result | Add result |
-| Lasso Regression | Add result | Add result | Add result |
-| Decision Tree    | Add result | Add result | Add result |
-| Random Forest    | Add result | Add result | Add result |
-| Linear SVR       | Add result | Add result | Add result |
-| RBF SVR          | Add result | Add result | Add result |
+| Model | MAE | RMSE | R² Score |
+|:---|:---:|:---:|:---:|
+| Ridge Regression | Add Result | Add Result | Add Result |
+| Lasso Regression | Add Result | Add Result | Add Result |
+| Decision Tree | Add Result | Add Result | Add Result |
+| Random Forest | Add Result | Add Result | Add Result |
+| Linear SVR | Add Result | Add Result | Add Result |
+| RBF SVR | Add Result | Add Result | Add Result |
 
 > Note: Enter the actual values from your notebook's evaluation results. No performance values are assumed here.
 
@@ -197,10 +207,6 @@ flowchart LR
     D --> F
     E --> F
     F --> G["Estimated House Price"]
-
-    style A fill:#211B40,stroke:#A855F7,color:#FFFFFF
-    style F fill:#6D28D9,stroke:#C4B5FD,color:#FFFFFF
-    style G fill:#211B40,stroke:#A855F7,color:#FFFFFF
 ```
 
 ---
@@ -211,14 +217,14 @@ The project includes a professional Streamlit dashboard with a premium dark purp
 
 ### Application Features
 
-| Feature            | Description                                 |
-| :----------------- | :------------------------------------------ |
-| Dashboard          | Project overview and model details          |
-| Predict Price      | Enter property information                  |
-| Price Estimation   | Display predicted house price               |
+| Feature | Description |
+|:---|:---|
+| Dashboard | Project overview and model details |
+| Predict Price | Enter property information |
+| Price Estimation | Display predicted house price |
 | Prediction History | View predictions during the current session |
-| About Model        | View model and feature information          |
-| Responsive Layout  | Wide dashboard interface                    |
+| About Model | View model and feature information |
+| Responsive Layout | Wide dashboard interface |
 
 ### App Theme
 
@@ -228,16 +234,64 @@ The project includes a professional Streamlit dashboard with a premium dark purp
 - Modern Input Fields
 - Premium Prediction Button
 
-### Application Preview
+---
 
-> Open the app locally: [http://localhost:8501](http://localhost:8501)
+## ▶️ HOW TO RUN THE STREAMLIT APPLICATION
+
+Follow these steps to run the House Price Prediction application on your computer.
+
+### Step 1 — Open Project in VS Code
+
+Open the main `Project 2` folder in Visual Studio Code.
+
+### Step 2 — Open Terminal
+
+In VS Code:
+
+- Click on **Terminal**.
+- Select **New Terminal**.
+
+### Step 3 — Install Required Libraries
+
+```bash
+pip install -r App/requirements.txt
+```
+
+### Step 4 — Run Streamlit Application
+
+```bash
+streamlit run App/app.py
+```
+
+### Step 5 — Open the Application
+
+After running the command, Streamlit will show the local application address.
+
+<p align="center">
+  <a href="http://localhost:8501">
+    <img src="https://img.shields.io/badge/OPEN_YOUR_APP-LOCALHOST%3A8501-7C3AED?style=for-the-badge&logo=streamlit&logoColor=white" alt="Open Localhost App">
+  </a>
+</p>
+
+**Application URL:** [http://localhost:8501](http://localhost:8501)
+
+> Important: Keep the VS Code terminal running while using the app. If the terminal is closed or Streamlit stops, the localhost link will not work.
+
+### Required Model File
+
+Make sure this saved model file exists:
+
+```text
+Model/
+└── best_house_price_model.pkl
+```
 
 ---
 
 ## 🗂️ PROJECT STRUCTURE
 
 ```text
-House-Price-Prediction/
+Project 2/
 │
 ├── Analysis/
 │   └── analysis.ipynb
@@ -260,52 +314,18 @@ House-Price-Prediction/
 
 ## 🛠️ TECHNOLOGIES USED
 
-| Technology       | Usage                     |
-| :--------------- | :------------------------ |
-| Python           | Main Programming Language |
-| Pandas           | Data Manipulation         |
-| NumPy            | Numerical Operations      |
-| Scikit-learn     | Machine Learning          |
-| Matplotlib       | Data Visualization        |
-| Seaborn          | Statistical Visualization |
-| Joblib           | Model Saving              |
-| Streamlit        | Web Application           |
-| VS Code          | Development Environment   |
-| Jupyter Notebook | Model Development         |
-
----
-
-## ▶️ HOW TO RUN THE PROJECT
-
-### Step 1 — Clone the Repository
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
-### Step 2 — Open Project Folder
-
-```bash
-cd House-Price-Prediction
-```
-
-### Step 3 — Install Dependencies
-
-```bash
-pip install -r App/requirements.txt
-```
-
-### Step 4 — Run Streamlit Application
-
-```bash
-streamlit run App/app.py
-```
-
-### Step 5 — Open the Application
-
-
-
-**Local URL:** [http://localhost:8501](http://localhost:8501)
+| Technology | Usage |
+|:---|:---|
+| Python | Main Programming Language |
+| Pandas | Data Manipulation |
+| NumPy | Numerical Operations |
+| Scikit-learn | Machine Learning |
+| Matplotlib | Data Visualization |
+| Seaborn | Statistical Visualization |
+| Joblib | Model Saving |
+| Streamlit | Web Application |
+| VS Code | Development Environment |
+| Jupyter Notebook | Model Development |
 
 ---
 
@@ -313,15 +333,19 @@ streamlit run App/app.py
 
 The application can be deployed using Streamlit Community Cloud.
 
-1. Upload the project to a GitHub repository.
+### Deployment Steps
+
+1. Upload the complete project to a GitHub repository.
 2. Make sure the `App` and `Model` folders are included.
 3. Connect your GitHub repository to Streamlit Community Cloud.
 4. Select `App/app.py` as the main application file.
-5. Deploy the application.
+5. Click Deploy.
 
 **Deployment Platform:** [Streamlit Community Cloud](https://share.streamlit.io/)
 
 > Important: The public deployment needs the saved model file and all required dependencies. Do not share the localhost address as a public website link.
+
+**Public App Link:** Add your deployed Streamlit URL here after deployment.
 
 ---
 
@@ -329,20 +353,24 @@ The application can be deployed using Streamlit Community Cloud.
 
 The `Evaluation plots/` folder contains the visual outputs generated during the project.
 
-Add your actual plot images below using their exact filenames:
-
-| Visualization       | Purpose                           |
-| :------------------ | :-------------------------------- |
-| Model Comparison    | Compare regression models         |
+| Visualization | Purpose |
+|:---|:---|
+| Model Comparison | Compare regression models |
 | Actual vs Predicted | Understand prediction performance |
-| Residual Plot       | Analyze prediction errors         |
-| Feature Importance  | Understand influential features   |
-| Error Distribution  | Study model error patterns        |
+| Residual Plot | Analyze prediction errors |
+| Feature Importance | Understand influential features |
+| Error Distribution | Study model error patterns |
 
-Example Markdown image syntax:
+### Add Your Actual Plot Images
+
+Replace the example filenames below with your actual image filenames.
 
 ```markdown
-![Model Comparison](Evaluation%20plots/your_actual_plot_filename.png)
+![Model Comparison](Evaluation%20plots/your_model_comparison.png)
+
+![Actual vs Predicted](Evaluation%20plots/your_actual_vs_predicted.png)
+
+![Residual Plot](Evaluation%20plots/your_residual_plot.png)
 ```
 
 ---
@@ -376,27 +404,30 @@ Through this project, I learned:
 
 ## 👩‍💻 PROJECT DETAILS
 
-| Field     | Information                                |
-| :-------- | :----------------------------------------- |
-| Project   | House Price Prediction                     |
-| Domain    | Artificial Intelligence & Machine Learning |
-| Model     | Random Forest Regression                   |
-| Interface | Streamlit Dashboard                        |
-| Language  | Python                                     |
-| Status    | Model Saved & App Created                  |
+| Field | Information |
+|:---|:---|
+| Project | House Price Prediction |
+| Domain | Artificial Intelligence & Machine Learning |
+| Model | Random Forest Regression |
+| Interface | Streamlit Dashboard |
+| Language | Python |
+| Status | Model Saved & App Created |
 
 ---
 
-\<p align="center">
+<p align="center">
 
-### 💜 THANK YOU FOR VISITING!
+## 💜 THANK YOU FOR VISITING!
 
-**HOUSE PRICE PREDICTION**
+### HOUSE PRICE PREDICTION
 
 *Turning Property Data into Smart Price Estimates.*
 
 Built with Python • Machine Learning • Streamlit
 
-\</p>
+</p>
 
-\<p align="center">   \<img src="[https://img.shields.io/badge/MADE_WITH-PYTHON-7C3AED?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/MADE_WITH-PYTHON-7C3AED?style=for-the-badge\&logo=python\&logoColor=white)" />   \<img src="[https://img.shields.io/badge/POWERED_BY-MACHINE_LEARNING-A855F7?style=for-the-badge](https://img.shields.io/badge/POWERED_BY-MACHINE_LEARNING-A855F7?style=for-the-badge)" /> \</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/MADE_WITH-PYTHON-7C3AED?style=for-the-badge&logo=python&logoColor=white" alt="Made with Python">
+  <img src="https://img.shields.io/badge/POWERED_BY-MACHINE_LEARNING-A855F7?style=for-the-badge" alt="Powered by Machine Learning">
+</p>
