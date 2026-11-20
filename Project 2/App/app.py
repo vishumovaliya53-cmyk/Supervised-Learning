@@ -477,3 +477,10 @@ st.markdown(
     "</center>",
     unsafe_allow_html=True
 )
+
+
+# =========================================
+# 11. Run the Streamlit app
+# =========================================
+
+print("Streamlit app is running. Write 'streamlit run App/app.py' in your terminal to start the application.")
