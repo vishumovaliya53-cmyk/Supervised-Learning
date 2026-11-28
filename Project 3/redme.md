@@ -1,4 +1,5 @@
 # ✦ CUSTOMER RISK CLASSIFICATION SYSTEM
+
 ### Machine Learning | Imbalanced Data Handling | Model Optimization | Streamlit
 
 <p align="center">
@@ -11,6 +12,24 @@
 **An Intelligent Customer Risk Prediction & Classification System**
 
 *Turning customer data into meaningful risk insights through Machine Learning.*
+
+</p>
+
+---
+
+<p align="center">
+
+## ✦ PROJECT FILE — QUICK ACCESS ✦
+
+<a href="https://drive.google.com/file/d/1hdc1m5FLfhBX-S--B2CwPoffQx7kcAUX/view?usp=sharing">
+
+![VIEW PROJECT](https://img.shields.io/badge/✦_VIEW_COMPLETE_PROJECT-OPEN_GOOGLE_DRIVE-8D7664?style=for-the-badge&logo=googledrive&logoColor=white)
+
+</a>
+
+### 📂 [CLICK HERE TO OPEN MY COMPLETE PROJECT](https://drive.google.com/file/d/1hdc1m5FLfhBX-S--B2CwPoffQx7kcAUX/view?usp=sharing)
+
+*Access the complete project through Google Drive.*
 
 </p>
 
@@ -86,7 +105,7 @@ flowchart TD
     K --> L["Final Model Selection"]
     L --> M["Model Serialization"]
     M --> N["Streamlit Deployment"]
-    
+
     style A fill:#E8DCCF,stroke:#9B8065,color:#45372E
     style L fill:#D5C1AD,stroke:#8D7664,color:#45372E
     style N fill:#B49A83,stroke:#6F5949,color:#FFFFFF
@@ -236,6 +255,7 @@ The business objective is to identify High Risk customers while minimizing incor
 A Low Risk customer is incorrectly classified as High Risk.
 
 **Business Impact:**
+
 - Unnecessary verification.
 - Additional operational costs.
 - Inconvenience to genuine customers.
@@ -245,6 +265,7 @@ A Low Risk customer is incorrectly classified as High Risk.
 A High Risk customer is incorrectly classified as Low Risk.
 
 **Business Impact:**
+
 - Risky customers may remain unidentified.
 - Potential financial losses.
 - Increased business exposure.
@@ -292,7 +313,9 @@ streamlit run app/app.py
 <p align="center">
 
 <a href="http://localhost:8501">
-<img src="https://img.shields.io/badge/OPEN_STREAMLIT_APP-Localhost_8501-B49A83?style=for-the-badge&logo=streamlit&logoColor=white" alt="Open Streamlit App"/>
+
+![OPEN STREAMLIT APP](https://img.shields.io/badge/OPEN_STREAMLIT_APP-Localhost_8501-B49A83?style=for-the-badge&logo=streamlit&logoColor=white)
+
 </a>
 
 **Local URL:** http://localhost:8501
@@ -345,7 +368,7 @@ Finally, the selected model is integrated into an interactive Streamlit applicat
 
 ## ✦ PROJECT 3 — COMPLETED ✦
 
-**CUSTOMER RISK CLASSIFICATION SYSTEM**
+### CUSTOMER RISK CLASSIFICATION SYSTEM
 
 *Data • Intelligence • Prediction*
 
