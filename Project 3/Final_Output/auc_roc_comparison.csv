@@ -1,0 +1,9 @@
+Model,AUC-ROC
+Logistic Regression,1.0
+SMOTE,1.0
+Over-Sampling,1.0
+Under-Sampling,1.0
+ADASYN,1.0
+Random Forest,0.9999443200926514
+Tuned Model,0.9999220481297119
+Decision Tree,0.9229835521553693
