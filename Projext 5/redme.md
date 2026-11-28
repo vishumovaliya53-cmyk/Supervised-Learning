@@ -14,6 +14,12 @@
 
 ---
 
+
+### 📂 [CLICK HERE TO OPEN MY COMPLETE PROJECT VIDEO](https://drive.google.com/file/d/1P4ay149cyRxNEyj2-aNIuTpeuvDsxRCP/view?usp=sharing)
+
+*Access the complete project through Google Drive.*
+
+
 ## 📌 1. Project Overview
 
 **Smart Outcome Predictor** is a Machine Learning project designed to analyze student learning activities and predict their academic outcomes using Ensemble Learning techniques.

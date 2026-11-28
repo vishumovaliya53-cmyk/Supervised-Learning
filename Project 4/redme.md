@@ -18,6 +18,11 @@
 
 </div>
 
+### 📂 [CLICK HERE TO OPEN MY COMPLETE PROJECT VIDEO](https://drive.google.com/file/d/1NRwqVxDG1x0y4aNyiQzI-Wjn-erqV8Xv/view?usp=sharing)
+
+*Access the complete project through Google Drive.*
+
+
 ## 📌 01. Project Overview
 
 The **Message Intelligence System** is a Machine Learning based classification project designed to identify whether a message is **Spam or Legitimate**.
